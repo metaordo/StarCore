@@ -1,5 +1,7 @@
 # 网络空间世界模型 StarCore
 
+![banner.png](resources/banner.png)
+
 <p align="center">
   <strong>The Model that Dreams the Cyberspace World —— 让模型学会做网络空间世界梦</strong>
 </p>
@@ -9,6 +11,7 @@
   <a href="https://github.com/metaordo/StarCore/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
   <a href="https://huggingface.co/Metaordo/StarCore"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow" alt="Hugging Face"></a>
   <a href="https://www.modelscope.cn/models/Metaordo/StarCore"><img src="https://img.shields.io/badge/🤖%20ModelScope-Models-purple" alt="ModelScope"></a>
+  <a href="https://github.com/metaordo/StarCore/blob/main/README_en.md"><img src="https://img.shields.io/badge/EN-README-green" alt="README"></a>
 </p>
 
 <p align="center">
@@ -31,9 +34,7 @@
 
 ##  模型介绍
 
-**StarCore** 是首个基于**系统状态链（System State-Chain）学习**的网络空间世界模型，能够深度理解、动态预测、智能研判复杂长链安全风险。
-
-网络系统世界中的多元数据链信息如网络流量、系统日志、代码执行、智能体轨迹等都可用于形成**系统状态链**，支撑世界模型的学习。StarCore 的核心构想是：
+**StarCore** 是首个基于**系统状态链（System State-Chain）学习**的网络空间世界模型，能够深度理解、动态预测、智能研判复杂长链安全风险。 网络系统世界中的多元数据链信息如网络流量、系统日志、代码执行、智能体轨迹等都可用于形成**系统状态链**，支撑世界模型的学习。StarCore 的核心构想是：
 
 > **以状态链作为理解网络系统世界的统一方式，让模型从多元数据链信息中学习运行规律，构建可理解、可预测、可推演的网络空间世界模型。**
 
@@ -87,8 +88,8 @@ State-Chain Modeling      State-Chain SFT            State-Chain RL
 
 提出**基于 GRPO 的状态链强化学习方法**，无需额外价值网络，以组内相对优势更新世界模型：
 
-1. **状态链任务输入**：系统状态链 ＋ 分析问题 / 目标
-2. **策略采样**：世界模型按当前策略采样生成多条候选推理链（Group Rollouts）
+1. **状态链任务输入**：系统状态链 ＋ 分析问题 / 目标。
+2. **策略采样**：世界模型按当前策略采样生成多条候选推理链（Group Rollouts）。
 3. **精细化奖励评分**：多维奖励机制对每条推理链打分。
 4. **GRPO 策略更新**：以综合奖励驱动策略迭代优化。
 
@@ -121,7 +122,7 @@ State-Chain Modeling      State-Chain SFT            State-Chain RL
 | MiniMax M3        | 0.7550 | 0.7636 | 0.7071 | 0.6337 | 0.8771 | 0.6201 | 0.6584 | 0.7134 |
 | Kimi K3           | 0.7344 | 0.5272 | 0.5496 | 0.5539 | 0.6765 | 0.5632 | 0.5170 | 0.5902 |
 
-> 注：仅 9B 参数规模的 StarCore 即在综合评分上显著超越更大规模的基础模型，验证了状态链学习范式的有效性。
+> 注：仅 9B 参数规模的 StarCore 在综合评分上显著超越更大规模的基础模型，验证了状态链学习的有效性。
 
 <span id='-快速开始'/>
 
