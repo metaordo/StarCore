@@ -320,6 +320,8 @@ StarCore continues to serve applications in key focus areas:
 - **Intelligent deduction**: Based on tens of millions of system state-chain records, builds dynamic deduction and verification capabilities for multi-source heterogeneous cyberspace behaviors, supporting risk prediction and verification for full-link behaviors such as software code, network traffic, system commands, and agent trajectories.
 - **Autonomous governance**: Breaks through the native security-defense boundaries of internationally advanced large models, builds an intelligent defense system covering 100+ types of high-risk malicious dialogue attack scenarios, and enables continuous perception, dynamic defense, and autonomous governance during AI application runtime.
 
+https://github.com/user-attachments/assets/4a38c68c-9223-469b-b197-6dcd499f91ec
+
 ## Contributing
 
 We welcome community contributions! We will continue working with the community to optimize and create more capabilities and application scenarios for cyberspace world models:
