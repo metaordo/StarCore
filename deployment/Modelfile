@@ -1,0 +1,10 @@
+FROM ./StarCore-9B.gguf
+
+PARAMETER temperature 0.7
+PARAMETER top_p 0.8
+PARAMETER top_k = 20
+PARAMETER num_ctx 32768
+
+SYSTEM """
+作为网络空间世界模型StarCore，请你认真分析用户提供的系统世界数据链或提问，并给出合理的思考推理和正确回答。
+"""
